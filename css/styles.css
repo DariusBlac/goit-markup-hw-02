@@ -26,20 +26,26 @@ body {
   color: var(--item-text-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* header */
 
 .logo {
-  text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-  color: var(--item-text-color);
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color-iris);
 }
 
 .web {
-  color: var(--logo-color-iris);
+  color: var(--item-text-color);
 }
 
 .list {
@@ -47,11 +53,11 @@ body {
 }
 
 .nav-list a {
-  text-decoration: none;
   color: var(--item-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-list a:hover,
@@ -60,12 +66,12 @@ body {
 }
 
 .contacts a {
-  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contacts a:hover,
@@ -83,7 +89,21 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
 }
 
 /* Sections */

@@ -1,0 +1,109 @@
+:root {
+  --primary-text-color: #434455;
+  --item-text-color: #2e2f42;
+  --logo-color-iris: #4d5ae5;
+  --button-color-ocean: #404bbf;
+  --white: #ffffff;
+  --accent-color: #e7e9fc;
+  --logo-color-cloud: #f4f4fd;
+}
+/* /* Кольорова гама */
+/* основний колір тексту - #434455 */
+/* колір заголовків - #2E2F42 */
+/* колір лого - #4D5AE5 */
+/* колір панелі кнопок портфоліо - #404BBF */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--item-text-color);
+}
+
+/* header */
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--item-text-color);
+}
+
+.web {
+  color: var(--logo-color-iris);
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--item-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--button-color-ocean);
+}
+
+.contacts a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--button-color-ocean);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--item-text-color);
+}
+
+.hero-title {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+/* Sections */
+.list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--item-text-color);
+}
+
+/* Footer */
+.logo-footer {
+  color: var(--logo-color-cloud);
+}
+
+.footer {
+  background-color: var(--item-text-color);
+}
+
+.footer-text {
+  color: var(--accent-color);
+}

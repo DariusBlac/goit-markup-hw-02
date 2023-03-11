@@ -22,8 +22,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   color: var(--item-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .link {
@@ -37,14 +40,14 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color-iris);
 }
 
-.web {
+.studio {
   color: var(--item-text-color);
 }
 
@@ -65,8 +68,11 @@ body {
   color: var(--button-color-ocean);
 }
 
-.contacts a {
+.contacts {
   font-style: normal;
+}
+
+.contacts a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -112,11 +118,18 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--item-text-color);
 }
 
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* Footer */
-.logo-footer {
+.studio-foot {
   color: var(--logo-color-cloud);
 }
 
